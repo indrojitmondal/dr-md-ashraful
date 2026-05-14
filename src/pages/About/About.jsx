@@ -31,9 +31,9 @@ const About = () => {
                                 {' '}
                                 <span>Dr. Md. Ashraful</span> <span>Islam </span>
                             </h1>
-                            <span className="text-primary">indro.cse.bu</span>@
+                            <span className="text-primary"> opustamc</span>@
                             <span className="text-primary">gmail.com </span>
-                            <p className="pb-2 text-lg">Software Engineer | Entrepreneur</p>
+                            <p className="pb-2 text-lg">MBBS | BCS(Health)</p>
 
                             <div className="flex  gap-3 justify-center pb-2  ">
                                 <button className="block bg-primary text-white text-lg px-2">
@@ -254,7 +254,7 @@ const About = () => {
                         <p className=" text-justify  text-base">
                             {' '}
                             {/* <span>Welcome to Indrojit,</span> <br /> */}
-                             This <span className="text-primary"> is Indrojit Mondal</span>, a passionate software engineer dedicated to building innovative software. His SSC's institution is Lakshmikhola Collegiate School(LCS), Paikgacha, Khulna and HSC's institution is Paikgacha Govt College, Khulna. He received his Bachelor's degree in{' '}
+                             This <span className="text-primary"> is Dr. Md. Ashraful Islam</span>, a passionate doctor dedicated to building innovative software. His SSC's institution is Lakshmikhola Collegiate School(LCS), Paikgacha, Khulna and HSC's institution is Paikgacha Govt College, Khulna. He received his Bachelor's degree in{' '}
                            
                             <span className="text-primary">Computer Science and Engineering(CSE) </span> from the{' '}
                             <a target="_blank" href="https://bu.ac.bd/" className="text-primary hover:underline " rel="noopener noreferrer">
