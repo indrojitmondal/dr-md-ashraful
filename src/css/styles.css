@@ -1,0 +1,61 @@
+
+/* Style for the navigation links */
+.nav-link {
+    position: relative; /* Needed for positioning the underline */
+    text-decoration: none; /* Remove default underline */
+    padding-bottom: 5px; /* Space for the underline */
+}
+
+.nav-link::after {
+    content: ""; /* Create a pseudo-element for the underline */
+    display: block; /* Make it a block element */
+    height: 2px; /* Thickness of the underline */
+    width: 0; /* Start with no width */
+    background-color: #0A9FDA; /* Use your primary color */
+    transition: width 0.3s ease; /* Smooth transition effect */
+    position: absolute; /* Position it relative to the link */
+    left: 0; /* Align to the left */
+    bottom: 0; /* Position at the bottom */
+}
+
+
+.nav-link:hover::after {
+    width: 100%; /* Expand width on hover */
+}
+
+/* Existing styles in your styles.css */
+
+.react-tabs__tab--selected {
+    background: #fff !important;
+    border: 2px solid #0A9FDA !important;
+    color: #0A9FDA !important;
+    border-radius: 5px 5px 0 0 !important;
+    /* border-bottom: 1x solid #0A9FDA !important; */
+}
+  
+  /* Potentially other react-tabs styles you might want to customize */
+  .react-tabs__tab {
+    /* Add your styles for unselected tabs here */
+    border: 1px solid #0A9FDA;
+    margin-bottom: -1px;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .react-tabs__tab-list {
+    /* Style the tab list container */
+    border-bottom: 1px solid #ccc;
+    margin: 0 0 10px;
+    padding: 0;
+    display: flex;
+  }
+  
+  .react-tabs__tab-panel {
+    /* Style the tab panel content area */
+    display: none;
+  }
+  
+  .react-tabs__tab-panel--selected {
+    display: block;
+    padding: 10px;
+  }
