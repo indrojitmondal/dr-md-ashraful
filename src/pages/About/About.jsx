@@ -36,7 +36,7 @@ const About = () => {
                             <p className="pb-2 text-lg">MBBS | BCS(Health) <br />
                             FCPS(Neuro Medicine) (FP) <br />
                             CCD(Birdem), PGT(Medicine) <br />
-                            <span className='text-md'>Experience in Medicine, Brain & Spinal Cord</span>
+                            <span className='text-md text-primary'>Experience in Medicine, Brain & Spinal Cord</span>
                             <br />
                             Sathira Medical College Hospital
                             </p> 
@@ -64,7 +64,7 @@ const About = () => {
                             {/* &nbsp;  */}
                           
                             {/* flex flex-col md:flex-row gap-4 */}
-                            Dr. Md. Ashraful Islam is a dedicated and experienced medical professional specializing in Neuro Medicine, Brain, and Spinal Cord diseases. He completed his MBBS and BCS (Health) and further advanced his expertise through FCPS (Neuro Medicine) (FP), along with CCD from Birdem and PGT in Medicine. With extensive experience in treating neurological and general medical conditions, he is committed to providing compassionate, modern, and patient-centered healthcare services.
+                            &nbsp;  is a dedicated and experienced medical professional specializing in Neuro Medicine, Brain, and Spinal Cord diseases. He completed his MBBS and BCS (Health) and further advanced his expertise through FCPS (Neuro Medicine) (FP), along with CCD from Birdem and PGT in Medicine. With extensive experience in treating neurological and general medical conditions, he is committed to providing compassionate, modern, and patient-centered healthcare services.
 
 <br /> 
 Currently serving at Sathira Medical College Hospital, Dr. Ashraful Islam focuses on the diagnosis and treatment of brain, nerve, and spinal cord disorders while ensuring quality medical care for every patient. His dedication, professionalism, and clinical expertise have earned the trust of many patients seeking advanced neurological and medical treatment.
