@@ -2,7 +2,9 @@ import React, { useEffect, useState } from 'react';
 // import  '../../js/dob.js'
 import drImage from '../../../public/favIcon.jpg'
 
-
+import image1 from '../../images/1.jpg'
+import image2 from '../../images/2.jpg'
+import image3 from '../../images/3.jpg'
 const About = () => {
 
    return (
@@ -64,16 +66,28 @@ const About = () => {
                             {/* &nbsp;  */}
                           
                             {/* flex flex-col md:flex-row gap-4 */}
-                            &nbsp;  is a dedicated and experienced medical professional specializing in Neuro Medicine, Brain, and Spinal Cord diseases. He completed his MBBS and BCS (Health) and further advanced his expertise through FCPS (Neuro Medicine) (FP), along with CCD from Birdem and PGT in Medicine. With extensive experience in treating neurological and general medical conditions, he is committed to providing compassionate, modern, and patient-centered healthcare services.
+                            &nbsp;is a dedicated and experienced medical professional specializing in Neuro Medicine, Brain, and Spinal Cord diseases. He completed his MBBS and BCS (Health) and further advanced his expertise through FCPS (Neuro Medicine) (FP), along with CCD from Birdem and PGT in Medicine. With extensive experience in treating neurological and general medical conditions, he is committed to providing compassionate, modern, and patient-centered healthcare services.
 
 <br /> 
 Currently serving at Sathira Medical College Hospital, Dr. Ashraful Islam focuses on the diagnosis and treatment of brain, nerve, and spinal cord disorders while ensuring quality medical care for every patient. His dedication, professionalism, and clinical expertise have earned the trust of many patients seeking advanced neurological and medical treatment.
                         </p>
+  
+                        
+                        <div className='flex gap-4 '>
 
-                        {/* <h2 className="pb-2 text-justify  text-base">
-                            His areas of expertise include <span className="text-primary">ReactJS, NodeJS, and MongoDB</span>. In free time, He enjoys solving problems on LeetCode and Codeforces to enhance his skills.
-                        </h2> */}
+                            <div>
+                                <img src={image1} alt="image1" />
+                            </div>
 
+                            <div>
+                                <img src={image2} alt="image1" />
+                            </div>
+                            <div>
+                                <img src={image3} alt="image1" />
+                            </div>
+
+
+                        </div>
                         
 
                     
