@@ -40,7 +40,7 @@ const Navbar = () => {
               >
                 {({ isActive }) => (
                   <>
-                    {["HOME", "ABOUT ", "PROJECTS", "SERVICES", "BLOGS", "CONTACT"][i]}
+                    {["HOME", "ABOUT ",  "SERVICES", "GALLERY", "CONTACT"][i]}
                     {isActive && <span className="absolute left-0 bottom-0 w-full h-[2px] bg-primary"></span>}
                   </>
                 )}
@@ -71,7 +71,7 @@ const Navbar = () => {
                 }}
                 className={({ isActive }) => `block text-lg ${isActive ? "text-primary" : ""}`}
               >
-                {["Home", "About", "Projects", "Services", "Blogs", "Contact Me"][i]}
+                {["Home", "About", "Services", "Gallery",  "Contact"][i]}
               </NavLink>
             ))}
           </ul>
