@@ -31,7 +31,7 @@ const Navbar = () => {
 
           {/* Desktop Nav */}
           <div className="hidden lg:flex gap-7 text-[15px]">
-            {["/", "/about", "/projects", "/services", "/blogs", "/contact"].map((path, i) => (
+            {["/", "/about", "/services", "/gallery", "/contact"].map((path, i) => (
               <NavLink
                 key={path}
                 to={path}
@@ -61,7 +61,7 @@ const Navbar = () => {
       {menu && (
         <div className='lg:hidden'>
           <ul className="text-center space-y-4 w-full py-4 shadow bg-about">
-            {["/", "/about", "/projects", "/services", "/blogs", "/contact"].map((path, i) => (
+            {["/", "/about","/services", "/gallery", "/contact"].map((path, i) => (
               <NavLink
                 key={path}
                 to={path}
